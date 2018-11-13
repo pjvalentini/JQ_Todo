@@ -46,7 +46,7 @@ $("input[type='text']").keypress(function(event) {
     // checks that the enter key is pressed. (enter - 13)
     if(event.which === 13) {
     // grabbing the text from the input.
-       var toDoText = $(this).val();
+       var toDoText = $(this).val().trim();
        $(this).val("");
        // create a new li and add to ul.
        $("ul").append("<li><span>X</span> " + toDoText + "</li>");
