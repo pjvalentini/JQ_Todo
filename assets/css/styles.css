@@ -4,6 +4,7 @@
     margin: 0 auto;
 }
 
+/* list styles */
 .completed {
     color: grey;
     text-decoration: line-through;

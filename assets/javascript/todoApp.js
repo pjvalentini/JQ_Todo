@@ -17,7 +17,15 @@
 //     }
 // });
 
+// EVENT BUBBLING...
+
 // or with three lines of code!
-$("li").click(function () {
+$("li").click(function() {
     $(this).toggleClass("completed");
+});
+
+$("span").click(function(event) {
+    console.log("span")
+    // stops event bubbling...
+    event.stopPropagation();
 });
