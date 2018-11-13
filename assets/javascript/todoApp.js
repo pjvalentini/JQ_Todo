@@ -17,7 +17,7 @@
 //     }
 // });
 
-// EVENT BUBBLING...
+// EVENT BUBBLING...is when an event will continue to bubble up to its parent
 
 // or with three lines of code!
 // linethrough the finished list items
@@ -41,6 +41,7 @@ $("ul").on("click", "span", function(event) {
     event.stopPropagation();
 });
 
+// adding enter keypress event to the input field.
 $("input[type='text']").keypress(function(event) {
     // checks that the enter key is pressed. (enter - 13)
     if(event.which === 13) {
