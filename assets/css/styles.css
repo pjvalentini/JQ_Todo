@@ -1,29 +1,31 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: #2980b9;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: #D38312;
+   /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #A83279, #D38312);
+   /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #A83279, #D38312);
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 #container {
     width: 360px;
     margin: 100px auto;
-    background: #f7f7f7;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); 
+    
 }
 
 
 h1 {
-    background: #2980e9;
+    background: #ff9122;
     color: white;
     margin: 0;
     padding: 10px 20px;
     text-transform: uppercase;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 400; 
+    border-radius: 20px;
 }
 
 input {
@@ -34,6 +36,7 @@ input {
     box-sizing: border-box;
     color: #2980e9;
     border: 3px solid rgba(0, 0, 0, 0);
+    border-radius: 20px;
 }
 
 input:focus {
@@ -64,6 +67,7 @@ li {
     height: 40px;
     line-height: 40px;
     color: #555;
+    border-radius: 20px;
 }
 
 li:nth-child(2n) {
@@ -74,6 +78,7 @@ li:nth-child(2n) {
 li:hover span {
     width: 40px;
     opacity: 1.0;
+    border-radius: 20px;
 }
 
 span {
