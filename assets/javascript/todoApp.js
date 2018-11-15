@@ -52,3 +52,8 @@ $("input[type='text']").keypress(function(event) {
        $("ul").append("<li><span><i class='fa fa-trash-alt'></i></span> " + toDoText + "</li>");
     }
 });
+
+$(".fa-plus").click(function() {
+    // fadeToggle() will keep track of the state and will know to either fadeIn or fadeOut.
+    $("input[type='text']").fadeToggle();
+});
